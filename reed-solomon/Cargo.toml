@@ -1,0 +1,11 @@
+[package]
+name = "p3-reed-solomon"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+p3-code = { path = "../code" }
+p3-field = { path = "../../Plonky3/field" }
+p3-lde = { path = "../../Plonky3/lde" }
+p3-matrix = { path = "../../Plonky3/matrix" }
